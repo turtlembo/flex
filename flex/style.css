@@ -22,7 +22,7 @@
     width: 1000px;
     justify-content: space-between;
 }
-.container .article{
+.article{
     width: 270px;
     height: 350px;
     display: flex;
@@ -30,32 +30,33 @@
     padding: 12px 0;
     background-color: rgb(0, 255, 234);
 }
-.container .article .wrap{
+.article .wrap{
     width: 93%;
     height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.container .article .lastwrap{
+.article .lastwrap{
     height: 310px;
 }
-.container .last{
+.last{
     width: 410px;
 }
-.container .last .emotion{
+.last .emotion{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
     height: 70px;
 }
-.container .last .emotion div{
+.last .emotion button{
     width: 80px;
     text-align: center;
     padding: 3px 0;
     background-color: rgb(236, 229, 229);
+    border: none;
 }
-.container .last .emotion div:last-child{
+.last .emotion button:last-child{
     width: 100%;
 }
