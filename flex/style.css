@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 470px;
+}
+.section h1{
+    width: 1050px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: blueviolet;
+    color: white;
+}
+.container{
+    display: flex;
+    width: 1000px;
+    justify-content: space-between;
+}
+.article{
+    width: 270px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    padding: 12px 0;
+    background-color: rgb(0, 255, 234);
+}
+.article .wrap{
+    width: 93%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.article .lastwrap{
+    height: 310px;
+}
+.last{
+    width: 410px;
+}
+.last .emotion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 70px;
+}
+.last .emotion button{
+    width: 80px;
+    text-align: center;
+    padding: 3px 0;
+    background-color: rgb(236, 229, 229);
+    border: none;
+}
+.last .emotion button:last-child{
+    width: 100%;
+}
